@@ -1,4 +1,4 @@
-[IPFS](https://youtu.be/BK4RKQg2zHQ)
+- [IPFS](https://youtu.be/BK4RKQg2zHQ)
   IPFS ย่อมาจาก Interplanetary File System เป็นเว็บแบบกระจายตัว หรือ Decentralized Content Gateway และ IPFS เป็นระบบไฟล์แบบ peer-to-peer คล้ายๆ Blockchain โดยจะกระจายไฟล์ไปเก็บไว้ยังเครื่องคอมพิวเตอร์ที่ทําหน้าที่เป็น Node ทั่วโลก แทนที่จะเก็ไฟล์ไว้ใน Server หรือคอมพิวเตอร์เพียงเครื่องเดียว ทําให้ไฟล์ยังคงอยู่ตลอดไปตามใดที่ยังมีคนสนใจไฟล์นั้น และเก็บไฟล์นั้นไว้
   การทํางานของ IPFS จะต่างจาก HTTP แบบเดิมที่เมื่อเปิดเว็บใดๆขึ้นมา Browser จะวิ่งไปเอาข้อมูลจาก Server ของเว็บนั้นๆ แต่สําหรับ IPFS แทนที่จะส่งคำขอถึงเครือข่าย และรับเนื้อหาที่เก็บไว้ที่ xxx.xxx.xxx.xx เปลี่ยนเป็นการรับเนื้อหาโดยค้นหาจากค่า Cryptographic Hash ของไฟล์ โดยไฟล์ที่มีอาจถูกเก็บในหลายๆ Node หากว่ามี Node หนึ่งที่มีปัญหามันก็จะมองหาและใช้งานใน Node ต่อๆไป
   InterPlanetary File System
@@ -7,13 +7,13 @@
   3. แก้ปัญหาการโดยบล็อคหรือเซนเชอร์ไม่ให้เข้าเว็บได้ เพราะไม่มีใครที่เป็นจุดเดียวที่จะบล็อคได้นั้นเอง
   4. เก็บข้อมูลแบบถาวร ไม่มีการลบและแก้ไขไม่ได้ โดยไม่เหมือนกับเว็บในตอนนี้ที่หายไปได้แล้วต้องมามีคนดูดข้อมูลเรื่อยๆ เก็บเอาไว้แบบ Google Cache เช่นเคยมีกระทู้เก่าๆ ในพันทิปที่โดนลบ ถ้าบน IPFS มันก็ไม่หายไปเป็นต้น เพราะบน IPFS จะทำงานเหมือน version control เก็บไปเรื่อยๆ ไฟล์อันไหนที่เหมือนกันก็เก็บอันเดียว จะไม่มีลิ้งค์เสียไป เข้าแล้วได้ 404
   5. ใช้ได้กับเทคโนโลยีเว็บปัจจุบัน ผู้ใช้ไม่จำเป็นต้องลงโปรแกรมเฉพาะเพื่อเรียกข้อมูลเรียกผ่าน URL ได้บนเว็บบราวเซอร์ได้เลย
-Structure of Git Object https://youtu.be/g4RkykZU9mM
+- [Structure of Git Object](https://youtu.be/g4RkykZU9mM)
   ในวิดีโออันนี้จะกล่าวถึงการใช้ git และอธิบายคำสั่งต่าง ๆ ของ git
-traceroute https://youtu.be/iUS4Y4rpFkM
+- [traceroute](https://youtu.be/iUS4Y4rpFkM)
   คำสั่ง ping หรือ traceroute เป็นเครื่องมือสำหรับการตรวจสอบการทำงานของระบบเครือข่ายชนิดหนึ่ง โดยสามารถจะทำการวัดค่า round-trip time (RTT) ซึ่งเป็นค่าช่วงเวลาที่ใช้ในการส่งแพ็คเก็ตไปยังปลายทางจนได้รับแพ็คเก็ตตอบกลับมา เพื่อนำมาใช้ในการตรวจสอบค่า delay ของแต่ละเส้นทางได้
-Key pair https://youtu.be/YwpLY9b4AIU
+- [Key pair](https://youtu.be/YwpLY9b4AIU)
   Key Pair เป็นส่วนสำคัญที่ผู้ใช้จะใช้ในการติดต่อเข้าใช้งาน Virtual Machine เป็นการสร้างกุญแจตามหลัก Public Key Infrastructure (PKI) จำเป็นจะต้องเตรียมไว้ก่อนการสร้าง Instance ถ้ามีอยู่ไม่จำเป็นต้องสร้างใหม่อีก เราสามารถใช้ Key เดียวกับหลาย Instance ได้ ที่รายการ Project → Compute → Access & Security ที่แท็ป Key Pairs เลือก Create Key Pair
-Hash function and PKI https://youtu.be/LMg_LLG37-Q
+- [Hash function and PKI](https://youtu.be/LMg_LLG37-Q)
   ฟังก์ชันแฮช (Hash function) คือ วิธีการที่ทำให้ข้อมูลย่อลงแต่มีลักษณะจำเพาะของข้อมูลนั้น โดยอาจกระทำโดยการแบ่งข้อมูลออกเป็นส่วนๆ ผ่านวิธีการใดๆแล้วนำกลับมารวมกัน เรียกว่า ค่าแฮช (hash value)
   คุณสมบัติของฟังก์ชันแฮช (Hash function)
   1. ข้อมูลแต่ละตัวเมื่อผ่านฟังก์ชันแฮชแล้วจะต้องมีค่าไม่เท่ากัน มีลักษณะที่จำเพาะแต่ล่ะข้อมูล
@@ -21,8 +21,8 @@ Hash function and PKI https://youtu.be/LMg_LLG37-Q
   3. เมื่อข้อมูลผ่านฟังก์ชันแฮชแล้วไม่ควรทำย้อนกลับได้
   4. การบวนการแฮชควรมีการกระจายตัวสูง ข้อมูลใดๆที่ผ่านฟังก์ชันแฮชควรมีขนาดเท่ากัน แต่ไม่เหมือนกัน
   PKI เป็นเทคโนโลยีที่อาศัยระบบรหัสแบบกุญแจสาธารณะ (Public Key Cryptography) ที่ประกอบด้วยกุญแจส่วนตัว (Private key) และกุญแจสาธารณะ (Public key) ซึ่งโครงสร้างดังกล่าวใช้ในการพิสูจน์ตัวจริง (Authentication) รวมทั้งการรักษาความลับของข้อมูล (Data Confidentiality) ความครบถ้วนของข้อมูล (Data Integrity) และการห้ามปฏิเสธความรับผิด (Non-repudiation)
-IP and TCP header https://youtu.be/_7ZQYYrZdXw 
-IP and TCP header https://youtu.be/Rf3hbBKoftQ
+- [IP and TCP header](https://youtu.be/_7ZQYYrZdXw )
+- [IP and TCP header](https://youtu.be/Rf3hbBKoftQ)
  IPv4 header
   1. version
   2. Header length : มีขนาดกี่ byte โดยปกติถ้าไม่มี options ส่วนของ header จะมีขนาด 20 byte
